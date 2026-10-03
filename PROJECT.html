@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uniworld-1 Hostel Portal</title>
+    <style>
+        body{
+            background-color: #FFFFE3;
+            color:black;
+           }
+        header {
+            background-color: #4A4A4A;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: whitesmoke;
+            border-radius: 25px 0px 25px 0px;
+            margin:10px;
+           }
+        h1 {
+          padding: 20px;
+            margin: 0;
+        
+           }
+        section {
+             background-color: #CBCBCB;
+             border-radius: 8px;
+             padding:
+        }
+        .ABC{
+            padding: 0px 0px 5px 8px;
+        }
+        
+        
+        h2  {
+            color:black;
+            display:flex;
+            justify-content: center;
+            
+        }
+        #menu p{
+            padding: 0px 20px 0px 20px;
+
+        }
+        table {
+            width: 100%;
+
+        }
+
+        th,td{
+            padding: 10px 15px;
+            
+        }
+        th{
+            text-align: center;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+        }
+        input, select {
+            padding: 3px;
+            border: 1px solid black;
+            border-radius: 3px;
+
+        }
+        button {
+            background-color: blue;
+            color:aliceblue;
+            padding: 8px;
+            border-radius: 3px;
+            font-size: 13px;
+            
+
+        }
+        .Other_information {
+            background-color: #CBCBCB;
+            color: black;
+             padding: 0px 0px 5px 8px;
+        }
+        .Notice_scaler {
+            background-color: #CBCBCB;
+            color:black;
+            border-radius: 3px;
+             padding: 0px 0px 5px 8px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Uniworld-1 Hostel Portal</h1>
+       
+    </header>
+    <section id="menu">
+        <h2>Weekly Mess Menu</h2>
+        <p>schedule for this week's meals....  timings: Breakfast(7:30 Am to 9:30Am), lunch(12:30pm to 2:30pm), dinner(7:30pm to 9:30pm).</p>
+
+        <div class="table for menu">
+            <table>
+                <thead>
+                    <tr>
+                      <th>Day</th>
+                      <th>Breakfast</th>
+                      <th>lunch</th>
+                      <th>Dinner</th>
+                   </tr>
+                  
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Poha</td>
+                        <td>Rajma masala, Rice, chapati</td>
+                        <td>Dal panch ratan, rice, roti</td>
+
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>dosa</td>
+                        <td>Black Masoor, rice, dal, chapti</td>
+                        <td>black chana, turai, roti</td>
+
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>aloo sandwich</td>
+                        <td>Chola masala, rice, dal, roti</td>
+                        <td>Chana dal, panner Hyderabadi, roti</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>chilla</td>
+                        <td>dal, rice, sprout masala, roti</td>
+                        <td>luuki Chana dal, veg kofta, chapati</td>
+
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>idli</td>
+                        <td>Dal Malhani, rice, chapati</td>
+                        <td>lobia masala, mix veg, rice, roti</td>
+
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Masala Dosa</td>
+                        <td>Chole, bhature</td>
+                        <td>dal palak, rice, chapati, soya masala</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>aloo paratha</td>
+                        <td>ladhi pakoda, rasam, rice, dal, roti</td>
+                        <td>paneer Biryani, raita.</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <section id="mentenance">
+
+        <h2>Submit a mentenance Request</h2>
+        <div class="ABC">
+        <p><strong> a broken light or a plumbing issue in your room</strong></p>
+        <p><strong>if you have any mentenance issue inn your room. please fill up this given form</strong></p>
+        <form>
+            <label for="room number"><strong>Room number</label>
+            <input type="text" id="room number" name="room number"><br><br>
+
+            <label for ="issue-typ">issue-type</label>
+            <select id="issue-typ" name="issue-typ">
+                <option value="electrical">electrical(light, fan, etc..)</option>
+                <option value="plumbing">any plumbing issuse</option>
+                <option value="wifi">Wifi issuse</option>
+                <option value="cleaning">Room cleaning issuse</option>
+                <option value="other">other</option>
+
+
+            </select><br><br>
+            <label for="other-issue" id="other-issue">Other-issue</label>
+            <input type="Text"><br><br>
+
+            <label for="date">request date</label>
+            <input type="date"><br><br>
+
+        <button type="submit">Submit</button>
+        </div>
+
+           
+        </form>
+    </section>
+<div class="Notice_scaler">
+    <h2>Notice for scaler's students</h2>
+    <p>no one can leave hoatel after 10:30PM</p>
+    <p>Note: if you want leave the campus after 10:30PM you need to mail scaler's authorities about it. and mail for the leavingg permission</p>
+    <p><strong> id: mailidpatanahi@gmail.com</strong></p>
+   
+</div>
+
+<div class="Other_information">
+    <h2>information for local transport Guilde</h2>
+    <p>for getting around electronic city we highly recommended to use uber, rapido, namma yatri app  for booking auto or cab</p>
+    <p>nearest BMTC bus stop is a 10-minute walk from the main gate.</p>
+    <p>if you want to go metro station. you will go with 600-seires bus</p>
+</div>
+    
+
+
+    
+</body>
+</html>
